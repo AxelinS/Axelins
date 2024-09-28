@@ -2,7 +2,7 @@
 layout: post
 title: Generic
 description: AI, Entertainment, Python, Go, Pytorch, LLM
-image: assets/images/neka.png
+image: assets/images/nekalow.png
 nav-menu: true
 ---
 

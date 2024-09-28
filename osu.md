@@ -7,7 +7,7 @@ nav-menu: true
 ---
 
 ## AI that plays Osu!
-I started creating this artificial intelligence at the end of August 2023 and it currently has 99% accuracy in aiming at almost any level. 
+I started creating this artificial intelligence at the end of August 2023 and it currently has 99% aim accuracy at almost any level. 
 This was trained using several recorded replays and synchronizing the video with the coordinates and click that occurred in each video frame.
 
 When searching for sources I found that OpenAI had managed to make an AI that plays Minecraft work using a technique called video pretraining, this inspired me to try this method with my model that plays Osu!.
@@ -34,8 +34,11 @@ I could say that thanks to this project I discovered my passion for artificial i
 
 ### Equipment specs
 Ryzen 5 5500
+
 RTX 3060 12GB
+
 32GB RAM DDR4 3666MHz
+
 Windows 11
 
 * <a href="https://clips.twitch.tv/ProudDignifiedDonkeyStrawBeary-DJJ4h0AaHFeaybmi">Aim video</a>
