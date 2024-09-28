@@ -12,7 +12,7 @@ nav-menu: true
 <!-- Two -->
 <section id="two" class="spotlights">
 	<section>
-		<a href="osu.html" class="image">
+		<a href="./proyects/2023-8-20-osu.html" class="image">
 			<img src="{% link assets/images/Osu-Logo-PNG_004.png %}" alt="" data-position="center center" />
 		</a>
 		<div class="content">
@@ -22,13 +22,13 @@ nav-menu: true
 				</header>
 				<p>AI, Tensorflow, Keras, Pytorch, Python</p>
 				<ul class="actions">
-					<li><a href="osu.html" class="button">Learn more</a></li>
+					<li><a href="./proyects/2023-8-20-osu.html" class="button">Learn more</a></li>
 				</ul>
 			</div>
 		</div>
 	</section>
 	<section>
-		<a href="aneeka.html" class="image">
+		<a href="./proyects/2024-2-12-aneeka" class="image">
 			<img src="{% link assets/images/neka.png %}" alt="" data-position="top center" />
 		</a>
 		<div class="content">
@@ -44,7 +44,7 @@ nav-menu: true
 		</div>
 	</section>
 	<section>
-		<a href="recorridov.html" class="image">
+		<a href="./proyects/2023-5-17-recorridov.html" class="image">
 			<img src="{% link assets/images/Tonala-banner-1.jpg %}" alt="" data-position="25% 25%" />
 		</a>
 		<div class="content">
@@ -54,13 +54,13 @@ nav-menu: true
 				</header>
 				<p>NodeJS, Express, MVC, MySQL, MongoDB</p>
 				<ul class="actions">
-					<li><a href="recorridov.html" class="button">Learn more</a></li>
+					<li><a href="./proyects/2023-5-17-recorridov.html" class="button">Learn more</a></li>
 				</ul>
 			</div>
 		</div>
 	</section>
 	<section>
-		<a href="energycut.html" class="image">
+		<a href="./proyects/2024-8-20-energycut.html" class="image">
 			<img src="{% link assets/images/cut.png %}" alt="" data-position="25% 25%" />
 		</a>
 		<div class="content">
@@ -70,7 +70,7 @@ nav-menu: true
 				</header>
 				<p>Java, Springboot, Docker, Maeven, NodeJS, TS, MariaDB</p>
 				<ul class="actions">
-					<li><a href="energycut.html" class="button">Learn more</a></li>
+					<li><a href="./proyects/2024-8-20-energycut.html" class="button">Learn more</a></li>
 				</ul>
 			</div>
 		</div>
