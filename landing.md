@@ -38,7 +38,7 @@ nav-menu: true
 				</header>
 				<p>AI, Entertainment, Python, Go, Pytorch, LLM</p>
 				<ul class="actions">
-					<li><a href="2024-2-12-aneeka.md" class="button">Learn more</a></li>
+					<li><a href="2024-2-12-aneeka.html" class="button">Learn more</a></li>
 				</ul>
 			</div>
 		</div>
