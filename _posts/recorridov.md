@@ -3,7 +3,6 @@ layout: post
 title: Recorrido Virtual
 description: Virtual tour in Tonalá
 image: assets/images/Tonala-banner-1.jpg
-nav-menu: true
 ---
 
 ### What does it consist of?

@@ -1,9 +1,8 @@
 ---
 layout: post
-title: Generic
+title: Aneeka
 description: AI, Entertainment, Python, Go, Pytorch, LLM
 image: assets/images/nekalow.png
-nav-menu: true
 ---
 
 ### What is Aneeka?

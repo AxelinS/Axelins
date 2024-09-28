@@ -3,7 +3,6 @@ layout: post
 title: AI that plays Osu!
 description: AI, Tensorflow, Keras, Pytorch, Python. 
 image: assets/images/Osu-Logo-PNG_004.png.jpg
-nav-menu: true
 ---
 
 ## AI that plays Osu!
