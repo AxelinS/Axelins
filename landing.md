@@ -2,7 +2,7 @@
 title: Proyects
 layout: landing
 description: 'Here you can find the projects created by me and some in which I have had active participation.'
-image: assets/images/pic07.jpg
+image: assets/images/mountains.jpg
 nav-menu: true
 ---
 
