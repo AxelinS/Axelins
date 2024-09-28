@@ -1,0 +1,40 @@
+---
+layout: post
+title: AI that plays Osu!
+description: AI, Tensorflow, Keras, Pytorch, Python. 
+image: assets/images/pic11.jpg
+nav-menu: true
+---
+
+Comencé a crear esta inteligencia artificial a finales de agosto de 2023 y actualmente posee una precisión del 99% en puntería en casi cualquier nivel. 
+Esta fue entrenada utilizando varias replays grabadas y sincronizando el video con las coordenadas y click que se dio en cada frame de video.
+
+Al buscar fuentes encontré que OpenAI había logrado hacer funcionar una IA que juega minecraft utilizando una técnica llamada video pretraining, esto me sirvió de inspiración para probar este método con mi modelo que juega Osu!.
+Esta técnica funcionó de una manera fenomenal en la puntería del modelo, aunque en la parte del click aún fallaba bastante.
+
+Aunque originalmente inicié el proyecto con Tensorflow y logré conseguir buenos resultados, decidí aprender también un poco de Pytorch y al final hice una versión más rápida y precisa que la que tenía en Tensorflow.
+
+Actualmente estoy perfeccionando con deep Q learning la parte del click para aumentar su constancia con la que da los clicks justo a tiempo para obtener el mejor puntaje.
+
+### Funcionamiento
+Para poner en marcha la IA simplemente abro Osu! y ejecuto un script de python el cual comienza a tomar capturas de pantalla del juego todo el tiempo, las capturas se guardan en secuencia de 6 dentro de un tensor el cual es enviado en un pipe hacia la parte encargada de la inferencia. 
+Cuando entro a una partida solo activo el ciclo que se encarga de las inferencias y las salidas como las coordenadas [x,y] las proceso y haciendo uso de ctypes se mueve  el cursor a las coordenadas.
+Con la parte del click es sencillo, solamente de la salida se identifica la probabilidad del click y en base a esta se presiona la tecla “x” para dar el equivalente al click en el juego.
+
+### Mi experiencia
+Este fue mi primer proyecto relacionado con la inteligencia artificial y al comenzar a crearlo descubrí que es un área que me gusta un montón y me emociona aprender mucho más.
+Aprendí y pase por muchas etapas de aprendizaje realizando este proyecto, aprendí desde cómo hacer un modelo básico simple de una entrada, una capa oculta y una salida para hacer una simple conversión de fahrenheit a celsius a un modelo de reconocimiento de imágenes y otro de detección de objetos solo para poder entender las bases para realizar este, mi primer proyecto.
+
+He estado varios meses pasando por dificultades y resolviendo los problemas que me encontraba, aprendiendo desde cero a crear una inteligencia artificial, al ser este mi primer proyecto me tomó mucho tiempo llegar a tener unos resultados que cumplieran mis expectativas (Que la IA pudiese ganarle a un humano).
+
+Probé diferentes técnicas y arquitecturas para el modelo haciendo un montón de pruebas dejando el modelo entrenando por días. 
+
+Se podría decir que gracias a este proyecto descubrí mi pasión por la inteligencia artificial.
+
+### Especificaciones del equipo utilizado
+Ryzen 5 5500
+RTX 3060 12GB
+32GB RAM DDR4 3666MHz
+Windows 11
+
+* <a href="https://clips.twitch.tv/ProudDignifiedDonkeyStrawBeary-DJJ4h0AaHFeaybmi">Video demostrativo de la punteria</a>
