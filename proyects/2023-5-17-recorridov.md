@@ -3,6 +3,7 @@ layout: post
 title: Recorrido Virtual
 description: NodeJS, Express, MVC, MySQL, MongoDB
 image: assets/images/Tonala-banner-1.jpg
+show_tile: false
 ---
 
 ### What does it consist of?
