@@ -19,9 +19,6 @@ nav-menu: true
 <h2 id="content">Sample Content</h2>
 <p>I'm a really passionate and dedicated Computer Science Engineering student with strong skills in backend development and artificial intelligence. With 3+ years of experience in programming, I have developed REST APIs, machine learning models, and led projects involving natural language processing and reinforcement learning. I am particularly interested in AI and backend development, continuously seeking opportunities to expand my knowledge in these areas. Fluent in both Spanish and English, with basic knowledge of Japanese.</p>
 
-<hr class="major" />
-
-</code></pre>
 </div>
 </div>
 </div>
