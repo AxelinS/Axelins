@@ -2,7 +2,7 @@
 layout: post
 title: CUTEnergy
 description: CUT energy controller
-image: assets/images/pic11.jpg
+image: assets/images/cut.png
 nav-menu: true
 ---
 
