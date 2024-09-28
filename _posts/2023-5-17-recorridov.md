@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Recorrido Virtual
-description: Virtual tour in Tonalá
+description: NodeJS, Express, MVC, MySQL, MongoDB
 image: assets/images/Tonala-banner-1.jpg
 ---
 
