@@ -34,7 +34,7 @@ nav-menu: true
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3>Recorrido Virtual</h3>
+					<h3>Aneeka</h3>
 				</header>
 				<p>AI, Entertainment, Python, Go, Pytorch, LLM</p>
 				<ul class="actions">
