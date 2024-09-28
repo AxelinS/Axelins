@@ -1,17 +1,17 @@
 # site settings
-title: Forty
-subtitle: by HTML5 UP
-email: youremailaddress@gmail.com
-description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
+title: Robin Axel Andrade Perez
+subtitle: Computer Science Engineer
+email: axelinw112@gmail.com
+description: Soy un estudiante de ciencias computacionales de la UDG y me apasiona la inteligencia artificial.
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
 author:
-street_address: 1234 Somewhere Road
-city: Nashville
-state: TN
+street_address: Morelos
+city: Zapotlanejo
+state: Jal
 zip_code: 55555
-country: United States of America
-phone: (716) 555-5555
+country: Mexico
+phone: (52) 3320450689
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
@@ -22,14 +22,9 @@ tiles-count: 6
 # Icons are not shown if value is empty
 # You need to restart jekyll for changes to have an effect
 socials:
-  GitHub: https://github.com/Axelins
-  GitLab:
-  Google-Plus: https://plus.google.com/u/0/+AndrewBanchich
-  Instagram:
-  LinkedIn: https://www.linkedin.com/in/andrew-banchich-a4ba1195
-  Twitter: https://twitter.com/andrewbanchich
-  Facebook:
-  Slack:
+  GitHub: https://github.com/AxelinS
+  LinkedIn: https://www.linkedin.com/in/robin-axel-andrade-perez-87b071168/
+  Twitter: https://twitter.com/AxelinSz
 
 # build settings
 markdown: kramdown
