@@ -2,39 +2,40 @@
 layout: post
 title: AI that plays Osu!
 description: AI, Tensorflow, Keras, Pytorch, Python. 
-image: assets/images/pic11.jpg
+image: assets/images/Osu-Logo-PNG_004.png.jpg
 nav-menu: true
 ---
 
-Comencé a crear esta inteligencia artificial a finales de agosto de 2023 y actualmente posee una precisión del 99% en puntería en casi cualquier nivel. 
-Esta fue entrenada utilizando varias replays grabadas y sincronizando el video con las coordenadas y click que se dio en cada frame de video.
+## AI that plays Osu!
+I started creating this artificial intelligence at the end of August 2023 and it currently has 99% accuracy in aiming at almost any level. 
+This was trained using several recorded replays and synchronizing the video with the coordinates and click that occurred in each video frame.
 
-Al buscar fuentes encontré que OpenAI había logrado hacer funcionar una IA que juega minecraft utilizando una técnica llamada video pretraining, esto me sirvió de inspiración para probar este método con mi modelo que juega Osu!.
-Esta técnica funcionó de una manera fenomenal en la puntería del modelo, aunque en la parte del click aún fallaba bastante.
+When searching for sources I found that OpenAI had managed to make an AI that plays Minecraft work using a technique called video pretraining, this inspired me to try this method with my model that plays Osu!.
+This technique worked phenomenally in the aiming of the model, although in the clicking part it still failed a lot.
 
-Aunque originalmente inicié el proyecto con Tensorflow y logré conseguir buenos resultados, decidí aprender también un poco de Pytorch y al final hice una versión más rápida y precisa que la que tenía en Tensorflow.
+Although I originally started the project with Tensorflow and managed to achieve good results, I decided to also learn a little about Pytorch and in the end I made a faster and more accurate version than the one I had in Tensorflow.
 
-Actualmente estoy perfeccionando con deep Q learning la parte del click para aumentar su constancia con la que da los clicks justo a tiempo para obtener el mejor puntaje.
+I am currently perfecting the clicking part with deep Q learning to increase the consistency with which I click just in time to obtain the best score.
 
-### Funcionamiento
-Para poner en marcha la IA simplemente abro Osu! y ejecuto un script de python el cual comienza a tomar capturas de pantalla del juego todo el tiempo, las capturas se guardan en secuencia de 6 dentro de un tensor el cual es enviado en un pipe hacia la parte encargada de la inferencia. 
-Cuando entro a una partida solo activo el ciclo que se encarga de las inferencias y las salidas como las coordenadas [x,y] las proceso y haciendo uso de ctypes se mueve  el cursor a las coordenadas.
-Con la parte del click es sencillo, solamente de la salida se identifica la probabilidad del click y en base a esta se presiona la tecla “x” para dar el equivalente al click en el juego.
+### Operation
+To start the AI ​​I simply open Osu! and I run a python script which starts taking screenshots of the game all the time, the screenshots are saved in sequence of 6 inside a tensor which is sent in a pipe to the part in charge of inference. 
+When I enter a game I only activate the loop that is responsible for the inferences and outputs such as the coordinates [x,y], I process them and using ctypes the cursor moves to the coordinates.
+With the click part it is simple, only from the output the probability of the click is identified and based on this the "x" key is pressed to give the equivalent of the click in the game.
 
-### Mi experiencia
-Este fue mi primer proyecto relacionado con la inteligencia artificial y al comenzar a crearlo descubrí que es un área que me gusta un montón y me emociona aprender mucho más.
-Aprendí y pase por muchas etapas de aprendizaje realizando este proyecto, aprendí desde cómo hacer un modelo básico simple de una entrada, una capa oculta y una salida para hacer una simple conversión de fahrenheit a celsius a un modelo de reconocimiento de imágenes y otro de detección de objetos solo para poder entender las bases para realizar este, mi primer proyecto.
+### My experience
+This was my first project related to artificial intelligence and when I started creating it I discovered that it is an area that I really like and I am excited to learn much more.
+I learned and went through many learning stages doing this project, I learned from how to make a simple basic model of an input, a hidden layer and an output to do a simple conversion from fahrenheit to celsius to an image recognition model and a detection model. of objects just to be able to understand the bases to carry out this, my first project.
 
-He estado varios meses pasando por dificultades y resolviendo los problemas que me encontraba, aprendiendo desde cero a crear una inteligencia artificial, al ser este mi primer proyecto me tomó mucho tiempo llegar a tener unos resultados que cumplieran mis expectativas (Que la IA pudiese ganarle a un humano).
+I have been going through difficulties for several months and solving the problems I encountered, learning from scratch to create artificial intelligence. Since this was my first project, it took me a long time to get results that met my expectations (That AI could beat a human).
 
-Probé diferentes técnicas y arquitecturas para el modelo haciendo un montón de pruebas dejando el modelo entrenando por días. 
+I tried different techniques and architectures for the model by doing a lot of tests leaving the model training for days. 
 
-Se podría decir que gracias a este proyecto descubrí mi pasión por la inteligencia artificial.
+I could say that thanks to this project I discovered my passion for artificial intelligence.
 
-### Especificaciones del equipo utilizado
+### Equipment specs
 Ryzen 5 5500
 RTX 3060 12GB
 32GB RAM DDR4 3666MHz
 Windows 11
 
-* <a href="https://clips.twitch.tv/ProudDignifiedDonkeyStrawBeary-DJJ4h0AaHFeaybmi">Video demostrativo de la punteria</a>
+* <a href="https://clips.twitch.tv/ProudDignifiedDonkeyStrawBeary-DJJ4h0AaHFeaybmi">Aim video</a>
