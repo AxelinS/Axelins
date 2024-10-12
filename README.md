@@ -1,3 +1,3 @@
-Soy un estudiante de ciencias computacionales de la UDG y me apasiona la inteligencia artificial.
+I am a computer science student at UDG, and I am passionate about AI.
 
 https://axelins.github.io/AxelinS/
