@@ -6,12 +6,10 @@ description: I am a computer science student at UDG and I am passionate about ar
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
 author:
-street_address: Morelos
 city: Zapotlanejo
 state: Jal
 zip_code: 45430
 country: Mexico
-phone: (52) 3320450689
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
