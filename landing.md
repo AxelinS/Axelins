@@ -44,6 +44,22 @@ nav-menu: true
 		</div>
 	</section>
 	<section>
+		<a href="./proyects/2024-8-25-Beca_Alimentos.html" class="image">
+			<img src="{% link assets/images/leo.webp %}" alt="" data-position="25% 25%" />
+		</a>
+		<div class="content">
+			<div class="inner">
+				<header class="major">
+					<h3>Recorrido Virtual</h3>
+				</header>
+				<p>Go, React Native, SQLite, Rest API</p>
+				<ul class="actions">
+					<li><a href="./proyects/2024-8-25-Beca_Alimentos.html" class="button">Learn more</a></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	<section>
 		<a href="./proyects/2023-5-17-recorridov.html" class="image">
 			<img src="{% link assets/images/Tonala-banner-1.jpg %}" alt="" data-position="25% 25%" />
 		</a>
