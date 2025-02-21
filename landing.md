@@ -50,7 +50,7 @@ nav-menu: true
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3>Recorrido Virtual</h3>
+					<h3>CUT Beca alimentos</h3>
 				</header>
 				<p>Go, React Native, SQLite, Rest API</p>
 				<ul class="actions">
